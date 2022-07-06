@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pm2": "pm2 start ./chapter/chapter6/6.4/pm2.js",
+    "pm2-stop": "pm2 stop all"
   },
   "author": "",
   "license": "ISC",
@@ -32,6 +33,7 @@
     "shortid": "^2.2.16"
   },
   "devDependencies": {
+    "pm2": "^5.2.0",
     "supertest": "^6.2.3"
   }
 }
